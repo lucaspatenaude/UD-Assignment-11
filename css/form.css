@@ -14,7 +14,24 @@ div#formcol1 {
 	width: 100%;
 }
 
+label {
+	text-align: right;
+	margin-right: .3em;
+	width: 6.3em;  /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
 
+.tick {
+	text-align: left;
+}
+
+#formcol1 li {   
+	list-style:none;
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
 
 /* end of form css */
 	
